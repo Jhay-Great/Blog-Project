@@ -1,0 +1,38 @@
+body {
+  margin: 0;
+  width: 85%;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: antiquewhite;
+}
+
+header {
+  float: left;
+  width: auto;
+  /*background-color: lightgray;*/
+  font-size: 25px;
+  padding: 20px;
+}
+
+nav {
+  float: right;
+  width: 50%;
+}
+
+img {
+  width: 250px;
+  border-radius: 20px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+footer {
+  clear: both;
+  font-weight: 550;
+  background-color: black;
+}
