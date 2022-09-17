@@ -1,13 +1,31 @@
 body {
   margin: 0;
-  padding: 0 40px;
+  padding: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: antiquewhite;
+  background: linear-gradient(white, skyblue, white );
+  background-repeat: no-repeat;
   /* background-image: url("imgs/bk-gd.jpg"); */
 
 }
 
-header {
+.heading {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-top: 10px;
+}
+
+li {
+  padding: 0 10px;
+}
+
+/* header {
   
   padding: 10px;
 }
@@ -52,4 +70,4 @@ footer {
 
 #bottom-page {
   display: inline;
-}
+} */
